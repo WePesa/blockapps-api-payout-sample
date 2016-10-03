@@ -25,7 +25,8 @@ Install NVM following the instructions at https://github.com/creationix/nvm/blob
    `npm install`
 1. Change the value of $SERVER_URL$ in `config.yaml`, to point to your Strato server.
 1. Run `node createPayoutUsers.js` which will generate addresses for Victor, Kieren, and Jim
-1. Open index.js and copy those addresses into their owner's fields in the source code for the solidity contract.  
+1. Open index.js and copy those addresses into their owner's fields in the source code for the solidity contract. Also replace them in `printPayoutAccounts` function.
+ 
 1. Run the sample
 
    `node index.js`
